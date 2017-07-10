@@ -15,6 +15,7 @@
 		0C266A5C1EE79C3B00E25D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C266A5A1EE79C3B00E25D7C /* LaunchScreen.storyboard */; };
 		0C266A671EE79C3B00E25D7C /* LocalNoticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C266A661EE79C3B00E25D7C /* LocalNoticeTests.m */; };
 		0C266A721EE79C3B00E25D7C /* LocalNoticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C266A711EE79C3B00E25D7C /* LocalNoticeUITests.m */; };
+		0C78D1811F1368CD00D6C81D /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C78D1801F1368CD00D6C81D /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		0C266A711EE79C3B00E25D7C /* LocalNoticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNoticeUITests.m; sourceTree = "<group>"; };
 		0C266A731EE79C3B00E25D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C266A7F1EE79C5100E25D7C /* LocalNotice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocalNotice.entitlements; sourceTree = "<group>"; };
+		0C78D17F1F1368CD00D6C81D /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		0C78D1801F1368CD00D6C81D /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 		0C266A4B1EE79C3B00E25D7C /* LocalNotice */ = {
 			isa = PBXGroup;
 			children = (
+				0C78D17E1F1368BE00D6C81D /* Classes */,
 				0C266A7F1EE79C5100E25D7C /* LocalNotice.entitlements */,
 				0C266A4F1EE79C3B00E25D7C /* AppDelegate.h */,
 				0C266A501EE79C3B00E25D7C /* AppDelegate.m */,
@@ -140,6 +144,15 @@
 				0C266A731EE79C3B00E25D7C /* Info.plist */,
 			);
 			path = LocalNoticeUITests;
+			sourceTree = "<group>";
+		};
+		0C78D17E1F1368BE00D6C81D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C78D17F1F1368CD00D6C81D /* test.h */,
+				0C78D1801F1368CD00D6C81D /* test.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C266A541EE79C3B00E25D7C /* ViewController.m in Sources */,
+				0C78D1811F1368CD00D6C81D /* test.m in Sources */,
 				0C266A511EE79C3B00E25D7C /* AppDelegate.m in Sources */,
 				0C266A4E1EE79C3B00E25D7C /* main.m in Sources */,
 			);
@@ -527,6 +541,7 @@
 				0C266A781EE79C3B00E25D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C266A791EE79C3B00E25D7C /* Build configuration list for PBXNativeTarget "LocalNoticeTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +550,7 @@
 				0C266A7B1EE79C3B00E25D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C266A7C1EE79C3B00E25D7C /* Build configuration list for PBXNativeTarget "LocalNoticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +559,7 @@
 				0C266A7E1EE79C3B00E25D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
